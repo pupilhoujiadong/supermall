@@ -2,14 +2,12 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 
 const routes = [
-  {
-    // 主页
+  {    
     path: '/',
     name: 'Home',
     component: Home
   },
   {
-    // 关于
     path: '/about',
     name: 'About',
     // route level code-splitting
